@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\bin\Debug\net8.0\BehaviouralDesignPatterns.exe
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\bin\Debug\net8.0\BehaviouralDesignPatterns.deps.json
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\bin\Debug\net8.0\BehaviouralDesignPatterns.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\bin\Debug\net8.0\BehaviouralDesignPatterns.dll
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\bin\Debug\net8.0\BehaviouralDesignPatterns.pdb
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.sourcelink.json
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.dll
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\refint\BehaviouralDesignPatterns.dll
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.pdb
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\BehaviouralDesignPatterns.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\BDP\BehaviouralDesignPatterns\obj\Debug\net8.0\ref\BehaviouralDesignPatterns.dll
