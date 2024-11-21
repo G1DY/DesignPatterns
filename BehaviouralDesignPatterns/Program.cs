@@ -1,7 +1,14 @@
-﻿using BehaviouralDesignPatterns.State.Watch;
+﻿using BehaviouralDesignPatterns.Iterator.GoodSln;
 
-var watch = new StopWatch();
-watch.Click();
-watch.Click();
-watch.Click();
-watch.Click();
+var shoppinglist = new ShoppingList();
+shoppinglist.Push("Mango");
+shoppinglist.Push("Banana");
+shoppinglist.Push("Apple");
+
+var iterator = shoppinglist.CreateIterator();
+
+while (iterator.HasNext())
+{
+    System.Console.WriteLine(iterator.Current());
+    iterator.Next();
+}
