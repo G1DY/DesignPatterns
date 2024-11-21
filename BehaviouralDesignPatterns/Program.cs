@@ -1,30 +1,10 @@
-﻿using BehaviouralDesignPatterns.Memento;
+﻿using BehaviouralDesignPatterns.State.GoodSln;
 
-var editor= new Editor();
-var history = new History(editor);
-history.Backup();
-editor.Title = "Test";
-history.Backup();
-editor.Content = "Hello there myname is Gideon";
-history.Backup();
-editor.Title = "Mementos";
+var doc = new Document(UserRoles.Admin);
+System.Console.WriteLine(doc.State);
 
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Content: {editor.Content}");
+doc.Publish();
+System.Console.WriteLine(doc.State);
 
-history.Undo();
-
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Content: {editor.Content}");
-
-history.ShowHistory();
-
-history.Undo();
-
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Content: {editor.Content}");
-
-history.Undo();
-
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Content: {editor.Content}");
+doc.Publish();
+System.Console.WriteLine(doc.State);
