@@ -1,10 +1,7 @@
-﻿using BehaviouralDesignPatterns.State.GoodSln;
+﻿using BehaviouralDesignPatterns.State.Watch;
 
-var doc = new Document(UserRoles.Admin);
-System.Console.WriteLine(doc.State);
-
-doc.Publish();
-System.Console.WriteLine(doc.State);
-
-doc.Publish();
-System.Console.WriteLine(doc.State);
+var watch = new StopWatch();
+watch.Click();
+watch.Click();
+watch.Click();
+watch.Click();
