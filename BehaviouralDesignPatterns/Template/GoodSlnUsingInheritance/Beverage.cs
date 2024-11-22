@@ -26,3 +26,6 @@ namespace BehaviouralDesignPatterns.Template.GoodSlnUsingInheritance
         protected virtual void AddCondiments() {}
     }
 }
+// CLIENTSIDECODE:
+// var tea = new Tea();
+// tea.MakeBeverage();
