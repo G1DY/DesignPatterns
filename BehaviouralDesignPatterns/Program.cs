@@ -1,7 +1,7 @@
-﻿using BehaviouralDesignPatterns.Command;
+﻿using BehaviouralDesignPatterns.Command.GoodSln;
 
 var light = new Light();
-var remoteControl = new RemoteControl(light);
-
-remoteControl.PressButton(true);
-remoteControl.PressButton(false);
+var remote = new RemoteControl(new TurnOnCommand(light));
+remote.PressButton();
+remote.SetCommand(new DimCommand(light));
+remote.PressButton();
