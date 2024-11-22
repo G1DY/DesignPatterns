@@ -3,24 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BehaviouralDesignPatterns.Template.BadSln
+namespace BehaviouralDesignPatterns.Template.GoodSlnUsingPolymorphism
 {
-    public class Tea
+    public class Tea : IBeverage
     {
-        public void MakeBeverage()
+        public void Prepare()
         {
-            BoilWater();
-            PourWaterIntoCup();
             Brew();
             AddCondiments();
-        }
-        private void BoilWater()
-        {
-            System.Console.WriteLine("Boiling Water");
-        }
-        private void PourWaterIntoCup()
-        {
-            System.Console.WriteLine("Pouring Water into Cup");
         }
         private void Brew()
         {
@@ -43,8 +33,3 @@ namespace BehaviouralDesignPatterns.Template.BadSln
 
     }
 }
-// CLIENTCODE:
-// var tea = new Tea();
-// tea.MakeBeverage();
-// var coffee = new Coffee();
-// coffee.MakeBeverage();

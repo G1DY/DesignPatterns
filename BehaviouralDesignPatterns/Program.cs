@@ -1,6 +1,5 @@
-﻿using BehaviouralDesignPatterns.Template.BadSln;
+﻿using BehaviouralDesignPatterns.Template.GoodSlnUsingInheritance;
+
 
 var tea = new Tea();
 tea.MakeBeverage();
-var coffee = new Coffee();
-coffee.MakeBeverage();
