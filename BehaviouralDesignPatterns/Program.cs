@@ -1,14 +1,7 @@
-﻿using BehaviouralDesignPatterns.Iterator.GoodSln;
+﻿using BehaviouralDesignPatterns.Command;
 
-var shoppinglist = new ShoppingList();
-shoppinglist.Push("Mango");
-shoppinglist.Push("Banana");
-shoppinglist.Push("Apple");
+var light = new Light();
+var remoteControl = new RemoteControl(light);
 
-var iterator = shoppinglist.CreateIterator();
-
-while (iterator.HasNext())
-{
-    System.Console.WriteLine(iterator.Current());
-    iterator.Next();
-}
+remoteControl.PressButton(true);
+remoteControl.PressButton(false);
