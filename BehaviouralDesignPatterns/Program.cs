@@ -1,11 +1,9 @@
-﻿using BehaviouralDesignPatterns.Observer.BadSln;
+﻿using BehaviouralDesignPatterns.Observer.GoodSln;
 
 var dataSource = new DataSource();
-var sheet2 = new Sheet2();
-var barChart = new Barchart();
+var sheet2 = new Sheet2(dataSource);
+var barChart = new BarChart(dataSource);
 
-dataSource.AddDependents(sheet2);
-dataSource.AddDependents(barChart);
-
+dataSource.AddObserver(sheet2);
+dataSource.AddObserver(barChart);
 dataSource.SetValues([5,10,15,20]);
-dataSource.GetValues();
