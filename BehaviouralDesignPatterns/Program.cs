@@ -1,14 +1,6 @@
-﻿using BehaviouralDesignPatterns.Command.UndoRedo;
+﻿using BehaviouralDesignPatterns.Template.BadSln;
 
-var htmldoc = new HtmlDocument();
-var history = new History();
-htmldoc.Content = "Command Pattern";
-System.Console.WriteLine(htmldoc.Content);
-
-var itallic = new ItallicCommand(htmldoc, history);
-itallic.Execute();
-System.Console.WriteLine(htmldoc.Content);
-
-var undoCommand = new UndoCommand(history);
-undoCommand.Execute();
-System.Console.WriteLine(htmldoc.Content);
+var tea = new Tea();
+tea.MakeBeverage();
+var coffee = new Coffee();
+coffee.MakeBeverage();
