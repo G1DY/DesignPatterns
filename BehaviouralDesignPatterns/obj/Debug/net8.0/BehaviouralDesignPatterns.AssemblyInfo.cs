@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BehaviouralDesignPatterns")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f79f88fe984766482b2023087a882a785edf438")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8a281e9ec7c430590d89390ae0fb235f2602edc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BehaviouralDesignPatterns")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BehaviouralDesignPatterns")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
