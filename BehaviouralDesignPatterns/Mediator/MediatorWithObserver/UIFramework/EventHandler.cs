@@ -5,8 +5,5 @@ using System.Threading.Tasks;
 
 namespace BehaviouralDesignPatterns.Mediator.MediatorWithObserver.UIFramework
 {
-    public class EventHandler
-    {
-        
-    }
+    public delegate void EventHandler();
 }
