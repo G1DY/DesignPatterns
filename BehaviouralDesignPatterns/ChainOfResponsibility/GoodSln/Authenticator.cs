@@ -9,6 +9,7 @@ namespace BehaviouralDesignPatterns.ChainOfResponsibility.GoodSln
     {
         public override bool DoHandle(HttpRequest request)
         {
+            System.Console.WriteLine("Authenticating");
             var username = request.GetUsername();
             var password = request.GetPassword();
 

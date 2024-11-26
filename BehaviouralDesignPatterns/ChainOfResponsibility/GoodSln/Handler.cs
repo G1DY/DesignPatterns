@@ -21,12 +21,12 @@ namespace BehaviouralDesignPatterns.ChainOfResponsibility.GoodSln
             if (DoHandle(request))
             {
                 return;
-            } 
-            else if(_nextHandler != null)
+            }
+            if(_nextHandler != null)
             {
                 _nextHandler.Handle(request);
             }
-        }
+        } 
         public abstract bool DoHandle(HttpRequest request);
             
     } 

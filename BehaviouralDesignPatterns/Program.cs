@@ -8,4 +8,7 @@ validator.SetNext(authenticator).SetNext(logger);
 
 var server = new WebServer(validator);
 var req = new HttpRequest("Gideon", "123");
-server.Handle(req);	
+server.Handle(req);
+
+var req2 = new HttpRequest("", "123");
+server.Handle(req2);
