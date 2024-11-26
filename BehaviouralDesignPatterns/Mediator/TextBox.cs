@@ -8,6 +8,7 @@ namespace BehaviouralDesignPatterns.Mediator
     public class TextBox : UIControl
     {
         private string _text = "";
+
         public TextBox(DialogueBox owner) : base(owner)
         {
         }

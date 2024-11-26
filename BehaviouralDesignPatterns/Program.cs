@@ -1,4 +1,4 @@
-﻿using BehaviouralDesignPatterns.Mediator.MediatorWithObserver;
+﻿using BehaviouralDesignPatterns.MediatorWithObserver;
 
-var postsDialogueBox = new PostDialogueBox();
-postsDialogueBox.SimulatorUserInteraction();
+var posts = new PostsDialogueBox();
+posts.SimulatorUserInteraction();

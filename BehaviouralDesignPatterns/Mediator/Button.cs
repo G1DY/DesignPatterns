@@ -8,6 +8,7 @@ namespace BehaviouralDesignPatterns.Mediator
     public class Button : UIControl
     {
         private bool _isEnabled;
+
         public Button(DialogueBox owner) : base(owner)
         {
         }

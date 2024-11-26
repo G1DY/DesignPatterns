@@ -9,7 +9,7 @@ namespace BehaviouralDesignPatterns.Mediator.MediatorWithObserver.UIFramework
     {
         private bool _isEnabled;
 
-        public bool isEnabled()
+        public bool IsEnabled()
         {
             return _isEnabled;
         }

@@ -8,9 +8,7 @@ namespace BehaviouralDesignPatterns.Mediator
     public class ListBox : UIControl
     {
         private string _selection = "";
-        public ListBox(DialogueBox owner) : base(owner)
-        {
-        }
+        public ListBox(DialogueBox owner) : base(owner){}
         public string GetSelection()
         {
             return _selection;
